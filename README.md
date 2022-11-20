@@ -22,6 +22,7 @@ This will spin up the json-server to act as a mock API. The site should be avail
 - Fix tests
 - Add proper input validation and better validation UI
 - Finish photo feature
+- Add sorting, searching
 - Make sure stylesheet is split up among components instead of in one main file
 - Implement proper theme
 - Make theme and stylesheet accessible to modal windows
