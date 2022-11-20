@@ -22,7 +22,8 @@
     "scripts",
     "jest",
     "webpack.config.js",
-    "data"
+    "data",
+    "test",
   ],
   "types": ["typePatches"]
 }

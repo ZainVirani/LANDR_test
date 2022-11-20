@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Contact Avatar should render a user's avatar 1`] = `
+<div
+  className="contactAvatar"
+>
+  <ForwardRef(Avatar)
+    alt="Zain Virani"
+    className="contactPhoto"
+    sx={
+      {
+        "bgcolor": "#ff5722",
+        "height": "75px",
+        "width": "75px",
+      }
+    }
+  >
+    <ForwardRef(Typography)
+      variant="h4"
+    >
+      Z
+    </ForwardRef(Typography)>
+  </ForwardRef(Avatar)>
+  <ForwardRef(Typography)
+    className="contactName"
+    component="h6"
+    noWrap={true}
+    variant="h6"
+  >
+    Zain Virani
+  </ForwardRef(Typography)>
+</div>
+`;

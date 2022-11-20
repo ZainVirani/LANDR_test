@@ -1,4 +1,4 @@
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import React from 'react';
 import './index.scss';
 import { Contacts } from './pages/contacts';
@@ -13,9 +13,9 @@ const App = () => {
   );
 };
 
-// @ts-ignore
-ReactDOM.createRoot(document.getElementById('app') as HTMLElement).render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
-  </React.StrictMode>
+  </React.StrictMode>,
+  document.getElementById('app')
 );
